@@ -181,7 +181,7 @@ const data = [
     edgeId: 12,
     publication:
       "Long-term exposure to black carbon, cognition and single nucleotide polymorphisms in microrna processing genes in older men",
-    DOI: "https://pubmed.ncbi.nlm.nih.gov/26724585/#:~:text=DOI%3A-,10.1016/j.envint.2015.12.014,-Abstract",
+    DOI: "https://doi.org/10.1016/j.envint.2015.12.014",
   },
   {
     edgeId: 12,
