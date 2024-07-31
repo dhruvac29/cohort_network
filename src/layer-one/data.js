@@ -1,4 +1,4 @@
-const data = [
+const layerOneData = [
   {
     edgeId: 1,
     publication:
@@ -1029,4 +1029,4 @@ const data = [
   },
 ];
 
-export default data;
+export default layerOneData;

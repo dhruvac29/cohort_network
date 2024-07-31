@@ -1,4 +1,4 @@
-const elements = {
+const layerTwoElements = {
   nodes: [
     {
       data: {
@@ -3471,4 +3471,4 @@ const elements = {
   ],
 };
 
-export default elements;
+export default layerTwoElements;
