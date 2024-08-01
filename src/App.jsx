@@ -56,22 +56,18 @@ const App = () => {
       },
     });
 
-    graph.on("tap", "edge", function (evt) {
+    graph.on("tap", "edge", (evt) => {
       const edge = evt.target;
       const edgeId = edge.data().edge_id;
 
       const loadedData = data.filter((value) => value.edgeId === edgeId);
-      setPubData([...loadedData]);
+      setPubData(loadedData);
     });
 
     return () => {
       graph.destroy();
     };
   }, [currentLayer]);
-
-  const toggleDropdown = () => {
-    setIsDropdownOpen(!isDropdownOpen);
-  };
 
   const handleLayerSelect = (event) => {
     setCurrentLayer(event.target.value);
@@ -94,8 +90,8 @@ const App = () => {
         <div className="main-panel" ref={canvasRef}></div>
         <div className="sidebar right">
           <ol>
-            {pubData.map((data) => (
-              <li key={data.edgeId}>
+            {pubData.map((data, index) => (
+              <li key={index}>
                 {data.publication}
                 <br />
                 <a
