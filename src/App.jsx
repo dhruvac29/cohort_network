@@ -14,26 +14,27 @@ import layerThreeData from "./layer-three/data";
 const App = () => {
   const canvasRef = useRef(null);
   const [pubData, setPubData] = useState([]);
-  const [currentLayer, setCurrentLayer] = useState("Layer-2");
+  const [currentLayer, setCurrentLayer] = useState("2");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
+    setPubData([]);
     let elements = [];
     let style = [];
     let data = [];
 
     switch (currentLayer) {
-      case "Layer-1":
+      case "1":
         elements = layerOneElements;
         style = layerOneStyle;
         data = layerOneData;
         break;
-      case "Layer-2":
+      case "2":
         elements = layerTwoElements;
         style = layerTwoStyle;
         data = layerTwoData;
         break;
-      case "Layer-3":
+      case "3":
         elements = layerThreeElements;
         style = layerThreeStyle;
         data = layerThreeData;
@@ -72,8 +73,8 @@ const App = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  const handleLayerSelect = (layer) => {
-    setCurrentLayer(layer);
+  const handleLayerSelect = (event) => {
+    setCurrentLayer(event.target.value);
     setIsDropdownOpen(false);
   };
 
@@ -84,42 +85,11 @@ const App = () => {
       </header>
       <div className="container">
         <div className="sidebar left">
-          <h2 className="dropdown-heading">Select Layer</h2>
-          <div className="dropdown">
-            <button
-              className="dropdown-btn"
-              aria-haspopup="menu"
-              onClick={toggleDropdown}
-            >
-              <span>{currentLayer}</span>
-              <span
-                className={`arrow ${isDropdownOpen ? "rotate" : ""}`}
-              ></span>
-            </button>
-            <ul
-              className={`dropdown-content ${isDropdownOpen ? "visible" : ""}`}
-              role="menu"
-            >
-              <li
-                style={{ "--delay": 1 }}
-                onClick={() => handleLayerSelect("Layer-1")}
-              >
-                <a href="#">Layer - 1</a>
-              </li>
-              <li
-                style={{ "--delay": 2 }}
-                onClick={() => handleLayerSelect("Layer-2")}
-              >
-                <a href="#">Layer - 2</a>
-              </li>
-              <li
-                style={{ "--delay": 3 }}
-                onClick={() => handleLayerSelect("Layer-3")}
-              >
-                <a href="#">Layer - 3</a>
-              </li>
-            </ul>
-          </div>
+          <select onChange={handleLayerSelect} value={currentLayer}>
+            <option value="1">Layer 1</option>
+            <option value="2">Layer 2</option>
+            <option value="3">Layer 3</option>
+          </select>
         </div>
         <div className="main-panel" ref={canvasRef}></div>
         <div className="sidebar right">
