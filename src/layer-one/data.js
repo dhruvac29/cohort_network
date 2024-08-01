@@ -779,7 +779,7 @@ const layerOneData = [
     edgeId: 13,
     publication:
       "The long arm of childhood experiences on longevity: testing midlife vulnerability and resilience pathways",
-    DOI: "",
+    DOI: "https://doi.org/10.1037/pag0000394",
   },
   {
     edgeId: 14,
