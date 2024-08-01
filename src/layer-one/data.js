@@ -27,7 +27,7 @@ const layerOneData = [
     edgeId: 1,
     publication:
       "The inflammatory potential of dietary manganese in a cohort of elderly men",
-    DOI: "",
+    DOI: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5844859/",
   },
   {
     edgeId: 1,
@@ -110,7 +110,7 @@ const layerOneData = [
     edgeId: 3,
     publication:
       "Associations of cumulative pb exposure and longitudinal changes in mini-psychological factors status exam scores, global cognition and domains of cognition: the VA Normative Aging Study",
-    DOI: "",
+    DOI: "https://doi.org/10.1016/j.envres.2016.10.007",
   },
   {
     edgeId: 3,
@@ -146,7 +146,7 @@ const layerOneData = [
     edgeId: 3,
     publication:
       "Promoter methylation of pgc1a and pgc1b predicts cancer incidence in a veteran cohort",
-    DOI: "",
+    DOI: "https://doi.org/10.2217/epi-2017-0141",
   },
   {
     edgeId: 3,
@@ -212,7 +212,7 @@ const layerOneData = [
     edgeId: 3,
     publication:
       "Influence of multiple APOE genetic variants on cognitive function in a cohort of older men - results from the Normative Aging Study",
-    DOI: "",
+    DOI: "https://doi.org/10.1186%2Fs12888-014-0223-x",
   },
   {
     edgeId: 3,
@@ -224,7 +224,7 @@ const layerOneData = [
     edgeId: 4,
     publication:
       "Irisin and leptin concentrations in relation to obesity, and developing type 2 diabetes: a cross sectional and a prospective case-control study nested in the Normative Aging Study",
-    DOI: "",
+    DOI: "https://doi.org/10.1016/j.metabol.2017.10.011",
   },
   {
     edgeId: 4,
@@ -236,7 +236,7 @@ const layerOneData = [
     edgeId: 4,
     publication:
       "DNA methylation of oxidative stress genes and cancer risk in the Normative Aging Study",
-    DOI: "",
+    DOI: "https://pubmed.ncbi.nlm.nih.gov/27186424/",
   },
   {
     edgeId: 4,
@@ -248,7 +248,7 @@ const layerOneData = [
     edgeId: 4,
     publication:
       "Promoter methylation of pgc1a and pgc1b predicts cancer incidence in a veteran cohort",
-    DOI: "",
+    DOI: "https://doi.org/10.2217/epi-2017-0141",
   },
   {
     edgeId: 4,
@@ -301,12 +301,12 @@ const layerOneData = [
     edgeId: 4,
     publication:
       "Longitudinal study of DNA methylation of inflammatory genes and cancer risk",
-    DOI: "",
+    DOI: "https://doi.org/10.1158/1055-9965.epi-15-0198",
   },
   {
     edgeId: 4,
     publication: "DNA methylation of telomere-related genes and cancer risk",
-    DOI: "",
+    DOI: "https://doi.org/10.1158/1940-6207.capr-17-0413",
   },
   {
     edgeId: 4,
@@ -335,7 +335,7 @@ const layerOneData = [
     edgeId: 6,
     publication:
       "Traffic-related air pollution and cognitive function in a cohort of older men",
-    DOI: "",
+    DOI: "https://doi.org/10.1289%2Fehp.1002767",
   },
   {
     edgeId: 6,
@@ -377,13 +377,13 @@ const layerOneData = [
     edgeId: 6,
     publication:
       "Differential DNA methylation and PM 2.5 species in a 450k epigenome-wide association study",
-    DOI: "",
+    DOI: "https://doi.org/10.1080/15592294.2016.1271853",
   },
   {
     edgeId: 6,
     publication:
       "Short- and intermediate-term exposure to ambient fine particulate elements and leukocyte epigenome-wide DNA methylation in older men: the Normative Aging Study",
-    DOI: "",
+    DOI: "https://doi.org/10.1016%2Fj.envint.2021.106955",
   },
   {
     edgeId: 6,
@@ -395,7 +395,7 @@ const layerOneData = [
     edgeId: 6,
     publication:
       "Ambient PM2.5 species and ultrafine particle exposure and their differential metabolomic signatures",
-    DOI: "",
+    DOI: "https://doi.org/10.1016/j.envint.2021.106447",
   },
   {
     edgeId: 6,
@@ -413,13 +413,13 @@ const layerOneData = [
     edgeId: 6,
     publication:
       "Quantile regression analysis of the distributional effects of air pollution on blood pressure, heart rate variability, blood lipids, and biomarkers of inflammation in elderly american men: the Normative Aging Study",
-    DOI: "",
+    DOI: "https://doi.org/10.1289/ehp.1510044",
   },
   {
     edgeId: 6,
     publication:
       "Prolonged exposure to particulate pollution, genes associated with glutathione pathways, and DNA methylation in a cohort of older men",
-    DOI: "",
+    DOI: "https://doi.org/10.1289/ehp.1002773",
   },
   {
     edgeId: 6,
@@ -431,7 +431,7 @@ const layerOneData = [
     edgeId: 6,
     publication:
       "Associations of annual ambient PM2.5 components with DNAm phenoage acceleration in elderly men: the Normative Aging Study",
-    DOI: "",
+    DOI: "https://doi.org/10.1016/j.envpol.2019.113690",
   },
   {
     edgeId: 6,
@@ -485,7 +485,7 @@ const layerOneData = [
     edgeId: 6,
     publication:
       "Exposure to sub-chronic and long-term particulate air pollution and heart rate variability in an elderly cohort: the Normative Aging Study",
-    DOI: "",
+    DOI: "https://doi.org/10.1186/s12940-015-0074-z",
   },
   {
     edgeId: 6,
@@ -527,19 +527,19 @@ const layerOneData = [
     edgeId: 6,
     publication:
       "Association between ambient beta particle radioactivity and lower hemoglobin concentrations in a cohort of elderly men",
-    DOI: "",
+    DOI: "https://doi.org/10.1016%2Fj.envint.2020.105735",
   },
   {
     edgeId: 6,
     publication:
       "Structural equation modeling of parasympathetic and sympathetic response to traffic air pollution in a repeated measures study",
-    DOI: "",
+    DOI: "https://doi.org/10.1186/1476-069x-12-81",
   },
   {
     edgeId: 6,
     publication:
       "Medium-term exposure to traffic-related air pollution and markers of inflammation and endothelial function",
-    DOI: "",
+    DOI: "https://doi.org/10.1289%2Fehp.1002560",
   },
   {
     edgeId: 6,
