@@ -53,9 +53,6 @@ const ContactUsPage = () => {
 
   return (
     <>
-      <header className="header">
-        <h1>Cohort Network</h1>
-      </header>
       <div className="contact-container">
         <div className="contact-info">
           <iframe
@@ -136,6 +133,9 @@ const ContactUsPage = () => {
           </Form>
         </div>
       </div>
+      <footer className="footer">
+        <p>© 2024 Cohort Network. All rights reserved.</p>
+      </footer>
     </>
   );
 };

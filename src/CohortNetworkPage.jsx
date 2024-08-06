@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import cytoscape from "cytoscape";
 import "./App.css";
-import { Link } from "react-router-dom";
 import layerOneElements from "./layer-one/elements";
 import layerOneStyle from "./layer-one/style";
 import layerOneData from "./layer-one/data";
@@ -75,14 +74,6 @@ const CohortNetworkPage = () => {
 
   return (
     <>
-      <header className="header">
-        <h1>Cohort Network</h1>
-        <button className="contact-button">
-          <Link to="/contact-us" className="nav-link">
-            Contact Us
-          </Link>
-        </button>
-      </header>
       <div className="container">
         <div className="sidebar left">
           <select onChange={handleLayerSelect} value={currentLayer}>

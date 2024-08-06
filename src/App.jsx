@@ -4,18 +4,19 @@ import HomePage from "./HomePage";
 import ContactUsPage from "./ContactUsPage";
 import CohortNetworkPage from "./CohortNetworkPage";
 import "./App.css";
+import Header from "./Header";
 
 const App = () => {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/contact-us" element={<ContactUsPage />} />
         <Route path="/cohort-network" element={<CohortNetworkPage />} />
+        <Route path="/about" element={<HomePage />} />
       </Routes>
-      <footer className="footer">
-        <p>© 2024 Cohort Network. All rights reserved.</p>
-      </footer>
+      
     </Router>
   );
 };
