@@ -91,7 +91,7 @@ select {
   align-items: center;
   justify-content: center;
   /* height: calc(100vh - 80px); */
-  padding: 40px;
+  padding: 10px 150px;
 }
 
 .header {
@@ -114,11 +114,6 @@ select {
   gap: 20px;
 }
 
-.grid-item {
-  padding: 20px;
-  /* background-color: #f1f1f1; */
-}
-
 .content-section {
   grid-column: 1 / 2;
 }
@@ -128,6 +123,8 @@ select {
 }
 
 .diagram-section {
+  display: flex;
+  align-items: center;
   grid-column: 1 / 3;
 }
 
@@ -141,8 +138,8 @@ select {
 }
 
 .diagram-image {
-  margin: 20px;
-  max-width: 100%;
+  margin: 0 auto;
+  max-width: 80%;
   vertical-align: middle;
   display: inline-block;
   height: auto;
@@ -154,7 +151,7 @@ select {
 }
 
 .small-text {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .medium-text {

@@ -26,10 +26,20 @@ const HomePage = () => {
             </ol>
           </div>
           <div className="grid-item image-section">
-            <img src={bookImg} className="cover-image" width="300" />
+            <img src={bookImg} className="cover-image" width="250" />
           </div>
         </div>
-        <div className="grid-item diagram-section">
+        <p>
+          Cite us: Shen Y, Kioumourtzoglou MA, Wu H, Spiro A, Vokonas P,
+          Navas-Acien A, Baccarelli AA, Gao F. (2023). Cohort Network: a
+          knowledge graph towards data dissemination and knowledge-driven
+          discovery for cohort studies. Environmental Science & Technology 57,
+          8236-8244. DOI:{" "}
+          <a href="https://doi.org/10.1021%2Facs.est.2c08174">
+            10.1021/acs.est.2c08174
+          </a>
+        </p>
+        <div className="diagram-section">
           <img src={diagramImg} className="diagram-image" />
         </div>
       </div>

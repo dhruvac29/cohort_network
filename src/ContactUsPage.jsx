@@ -55,24 +55,28 @@ const ContactUsPage = () => {
     <>
       <div className="contact-container">
         <div className="contact-info">
-          <iframe
-            title="Map"
-            className="contact-map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.3894930478993!2d-97.11847848427833!3d32.72904188097286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e71e11a1b0e37%3A0xf697fc7db95e861a!2s500%20Yates%20St%20Rm%20217%2C%20Arlington%2C%20TX%2076019%2C%20USA!5e0!3m2!1sen!2s!4v1621927357018!5m2!1sen!2s"
-            frameBorder="0"
-            allowFullScreen=""
-            aria-hidden="false"
-            tabIndex="0"
-          ></iframe>
           <h2>Get in touch with us</h2>
+          <br />
           <p>
+            <h3>Dr. Yike Shen</h3>
             <MailOutlined />{" "}
             <a href="mailto:yike.shen@uta.edu">yike.shen@uta.edu</a>
             <br />
-            <PhoneOutlined /> <a href="tel:+18172726756">(817) 272-6756</a>
+            Department of Earth and Environmental Sciences
             <br />
-            <EnvironmentOutlined /> 500 Yates Street, Room 217, Arlington, Texas
-            76019
+            <EnvironmentOutlined /> University of Texas at Arlington
+          </p>
+          <br />
+          <p>
+            <h3>Dr. Feng Gao</h3>
+            <MailOutlined />{" "}
+            <a href="mailto:gaofeng@ucla.edu">gaofeng@ucla.edu</a>
+            <br />
+            Department of Environmental Health Sciences
+            <br />
+            Department of Molecular and Medical Pharmacology
+            <br />
+            <EnvironmentOutlined /> University of California, Los Angeles
           </p>
         </div>
         <div className="contact-form">

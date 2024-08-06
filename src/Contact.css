@@ -1,25 +1,31 @@
 .contact-container {
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  padding: 70px;
   background: var(--background-color, #f0f0f0);
   animation: fadeIn 1.5s ease-in-out;
   justify-content: center;
   align-items: center;
   gap: 40px;
-  height: calc(100vh - 255px);
+  height: calc(100vh - 290px);
 }
 
 .contact-info {
   flex: 1;
   margin-right: 20px;
-  text-align: left;
+  text-align: -webkit-center;
 }
 
 .contact-info h2 {
   color: #333;
   font-size: 28px;
   margin-bottom: 20px;
+}
+
+.contact-info h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 5px;
 }
 
 .contact-info p {
@@ -52,6 +58,11 @@
 
 .contact-form .ant-form-item {
   margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #2c2c2c;
+  border-color: #2c2c2c;
 }
 
 @keyframes fadeIn {
