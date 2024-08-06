@@ -1,5 +1,7 @@
 import React from "react";
 import "./App.css";
+import bookImg from "./assets/esthag.2023.57.issue-22.xlargecover-3.jpeg";
+import diagramImg from "./assets/CD59C193-D6B5-4892-8913-C63B979DD7D9_1_201_a.jpeg";
 
 const HomePage = () => {
   return (
@@ -24,18 +26,11 @@ const HomePage = () => {
             </ol>
           </div>
           <div className="grid-item image-section">
-            <img
-              src="src/assets/esthag.2023.57.issue-22.xlargecover-3.jpeg"
-              className="cover-image"
-              width="300"
-            />
+            <img src={bookImg} className="cover-image" width="300" />
           </div>
         </div>
         <div className="grid-item diagram-section">
-          <img
-            src="src/assets/CD59C193-D6B5-4892-8913-C63B979DD7D9_1_201_a.jpeg"
-            className="diagram-image"
-          />
+          <img src={diagramImg} className="diagram-image" />
         </div>
       </div>
       <footer className="footer">
