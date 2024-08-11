@@ -1,4 +1,4 @@
-# **Deploying Your React Project on Vercel
+# Deploying Your React Project on Vercel
 
 ## **1\. Introduction**
 
