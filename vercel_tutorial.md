@@ -91,7 +91,7 @@ git push -u origin main
 
 ## **5\. Managing Your React Project on Vercel**
 
-### **Step 1: Custom Domain (Optional)**
+### **Step 1: Custom Domain ([#](https://github.com/dhruvac29/cohort_network/blob/main/step-1-custom-domain-optional.md))**
 
 1.  If you want to use a custom domain, go to the **"Domains"** section in your project’s dashboard.
 2.  Add your custom domain and follow the DNS setup instructions provided by Vercel.
